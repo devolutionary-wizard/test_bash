@@ -1,0 +1,14 @@
+name: Test
+on: 
+    push:
+        branches:
+            - main
+jobs:
+    deploy:
+        runs-on: ubuntu-lastest
+        steps: 
+            - name: Checkout repository
+              uses: actions/checkout@v3
+            - name: Testing
+              run: |
+                echo "Working fine"
