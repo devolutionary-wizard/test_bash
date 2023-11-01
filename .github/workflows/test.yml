@@ -10,5 +10,7 @@ jobs:
       - name: Testing
         run: |
           echo "Working fine"
+      - name: Run chmode
+        run: chmod +x scripts/example.sh
       - name: Run Bash Script
         run: bash scripts/example.sh
