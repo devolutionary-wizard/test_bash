@@ -11,4 +11,4 @@ jobs:
         run: |
           echo "Working fine"
       - name: Run Bash Script
-        run: bash example.sh
+        run: bash scripts/example.sh
